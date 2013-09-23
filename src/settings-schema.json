@@ -1,12 +1,60 @@
 {
     "general": {
         "type": "header",
-        "description": "Settings"
+        "description": "RDP connections (format: username@host:port)"
     },
 
-    "testText": {
+    "rdp-01": {
         "type": "entry",
-        "description": "Text",
+        "description": "Rdp 01",
         "default": ""
-    }
+    },
+
+	"rdp-02": {
+		"type": "entry",
+		"description": "Rdp 02",
+		"default": ""
+	},
+
+	"rdp-03": {
+		"type": "entry",
+		"description": "Rdp 03",
+		"default": ""
+	},
+
+	"rdp-04": {
+		"type": "entry",
+		"description": "Rdp 04",
+		"default": ""
+	},
+
+	"rdp-05": {
+		"type": "entry",
+		"description": "Rdp 05",
+		"default": ""
+	},
+
+	"rdp-06": {
+		"type": "entry",
+		"description": "Rdp 06",
+		"default": ""
+	},
+
+	"rdp-07": {
+		"type": "entry",
+		"description": "Rdp 07",
+		"default": ""
+	},
+
+	"rdp-08": {
+		"type": "entry",
+		"description": "Rdp 08",
+		"default": ""
+	},
+
+	"rdp-09": {
+		"type": "entry",
+		"description": "Rdp 09",
+		"default": ""
+	}
 }

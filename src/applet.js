@@ -1,5 +1,4 @@
 const Applet = imports.ui.applet;
-const Gettext = imports.gettext.domain('cinnamon-extensions');
 // const Gtk = imports.gi.Gtk;
 // const Gio = imports.gi.Gio;
 const Main = imports.ui.main;
@@ -10,6 +9,7 @@ const Util = imports.misc.util;
 // const Lang = imports.lang;
 // const Cinnamon = imports.gi.Cinnamon;
 
+const Gettext = imports.gettext.domain('cinnamon-extensions');
 const _ = Gettext.gettext;
 
 function MyApplet(orientation){
@@ -53,7 +53,7 @@ MyApplet.prototype = {
         }
     },
 
-    updateUi : function (applet) {
+    updateUi : function () {
         if (this.testText) {
             this.set_applet_tooltip(this.testText);
         } else {

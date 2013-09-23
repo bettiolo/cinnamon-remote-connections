@@ -1,0 +1,12 @@
+{
+    "general": {
+        "type": "header",
+        "description": "Settings"
+    },
+
+    "testText": {
+        "type": "entry",
+        "description": "Text",
+        "default": ""
+    }
+}

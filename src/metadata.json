@@ -1,0 +1,7 @@
+{
+	"uuid": "remote-connections@bettiolo",
+    "version": "0.1",
+    "name": "Remote desktops (RDP)",
+	"description": "Quick connect to remote desktops (RDP)",
+	"icon": "preferences-desktop-remote-desktop"
+}

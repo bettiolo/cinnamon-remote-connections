@@ -1,7 +1,7 @@
 {
     "general": {
         "type": "header",
-        "description": "RDP connections (format: username@host:port)"
+        "description": "RDP Connections (format: username@host:port)"
     },
 
     "rdp-01": {
@@ -11,9 +11,10 @@
     },
 
 	"rdp-02": {
-		"type": "entry",
-		"description": "Rdp 02",
-		"default": ""
+		"type": "textview",
+		"description": "Rdp 02 LONG",
+		"default": "",
+		"height": 350
 	},
 
 	"rdp-03": {
